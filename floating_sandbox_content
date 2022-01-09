@@ -10,37 +10,37 @@
         
         [
           "sinking simulator",
-          "https://img.youtube.com/vi/KR2FwHy-8Q8/maxresdefault.jpg",
+          "https://img.youtube.com/vi/EwHRMbDO_5I/maxresdefault.jpg",
           "the most realistic ship sinking simulator game. Floating sandbox provides a great way to relieve your all-day stress by offering destructive strategies. \n\n Try Different methods to damage some of the most real-life ships. Try a combination of methods to make them sink and when they’re not able to take it anymore watch them sink into the ocean. Sounds cool! right? \n\n The best part about this game is that you can load many ships like Titanic, The Poseidon, QE2, and so on in this simulator game"
         ],
         [
           "Ships Windows Vista",
-          "https://img.youtube.com/vi/KR2FwHy-8Q8/maxresdefault.jpg",
+          "https://img.youtube.com/vi/rkjMZaH6yaY/maxresdefault.jpg",
           "OS: Windows Vista 64bit, Windows 7 64bit, Windows 8 64bit, Windows 10 64bit.  \n\n • Processor: INTEL Dual-Core 2.4 GHz \n\n • Memory: 512 MB RAM  \n\n • Graphics: 256 MB  \n\n • Storage: 512 MB available space"
         ],
         [
           "favorite",
-          "https://img.youtube.com/vi/KR2FwHy-8Q8/maxresdefault.jpg",
+          "https://img.youtube.com/vi/hoFz0qGt3-Q/maxresdefault.jpg",
           "Ships in Floating Sandbox can be built by authoring simple image files saved in the png format; you may use your favorite image editor for this, MS Paint works perfectly for example.  The positions of pixels in the image provide the positions of the particles (points) of the ship, while the colors of the pixels map to characteristics of the particles such as their mass, strength, the sound they make when they break, and so on. Floating sandbox comes with two palettes - structural materials template and electrical materials template - that list the colors that you may use together with the various characteristics that they represent. You can find them under the Guides folder of the game. \n\n There are basically two methods to author a ship: a basic method, and an advanced method"
         ],
         [
           "multiple png",
-          "https://img.youtube.com/vi/KR2FwHy-8Q8/maxresdefault.jpg",
+          "https://img.youtube.com/vi/SfL2rXP57I0/maxresdefault.jpg",
           "The advanced method consists instead of providing multiple png images, each providing characteristics specifics to a domain: \n\n • A first image provides the “structural layer”, that is, the physical characteristics of particles such as mass, strength, sound, stiffness, and so on; \n\n • Another image provides the “electrical layer”, that is, the electrical nature and electrical characteristics of particles such as whether     they are lamps or generators, their conductivity, their luminiscence, and so on; \n\n • Yet another image provides the “ropes layer”, which contains endpoints of ropes that are conveniently automatically completed by Floating Sandbox; \n\n • A final image provides the “texture layer”, which is the image that is visible during the game. \n\n An advantage of using a separate electrical layer, for example, is that you may build a complex circuitry on top of arbitrary structural materials specified separately in the structural layer, such as glass or wood. \n\n The only mandatory layer is the “structural layer”, and this is the layer that Floating Sandbox implicitly assumes it’s loading when importing a simple png. In order to work with multiple layers instead, you would craft a simple json file that specifies the names of the image files providing the individual layers. Also in this case the only mandatory layer is the “structural layer”, with all the other layers being optional"
         ],
         [
           "texture layer",
-          "https://img.youtube.com/vi/KR2FwHy-8Q8/maxresdefault.jpg",
+          "https://img.youtube.com/vi/UqRdZDEJlmU/maxresdefault.jpg",
           "The texture layer image provides the visible aspect of a ship. Using a texture layer allows the ship to look any way you want, regardless of the materials  used in the structural layer"
         ],
         [
           "ropes layer",
-          "https://img.youtube.com/vi/KR2FwHy-8Q8/maxresdefault.jpg",
+          "https://img.youtube.com/vi/LKk5kyVxmns/maxresdefault.jpg",
           " ropes layer image is an image that contains pairs of pixels with the same color; for each such a pair, Floating Sandbox will automatically fill-in a segment (the “rope”) between the two points corresponding to the pixels, each point of the segment being of the “Rope” structural material"
         ],
         [
           "texture layer",
-          "https://img.youtube.com/vi/KR2FwHy-8Q8/maxresdefault.jpg",
+          "https://img.youtube.com/vi/KHke8mB551Y/maxresdefault.jpg",
           "A good way to get started is to first create a large (hi-definition) texture image for the texture layer, then copy and resize this image for the structural layer, and finally fill-in the structural layer with material colors. Here’s how to do just that: \n\n • Decide your new ship’s dimensions: a good starting point is 240 meters wide and 70 meters high (the dimensions of the RMS Titanic that comes with the game!) \n\n • Create an empty image 8 times larger than that, in our case 1920x560; this will be our texture layer image. \n\n • Draw the ship with any colors you’d like - when drawing the texture layer you don’t have to follow the material palette. Draw fine details here, this is how your ship will look like after all! \n\n • Make sure that the image is transparent where there’s no ship. \n\n • Once you’re done, save the texture image as a png file; call it for example “my_new_ship_texture.png”. \n\n • Now resize the image down by 8 - you should end with a 240x70 image; this will be your structural layer image. \n\n • Draw pixels over the pixels of the resized image, this time following the structural material palette. These pixels will be your particles, having the material corresponding to the palette color. Make sure you cover all of the resized image’s pixels. For this image, you should think of describing the “inside” of the ship - its beams, decks, shafts, hull, and so on. \n\n • Use only hull materials for those pixels of the structure which will have contact with sea water, or else water will flood immediately when the ship is loaded. Watch out for diagonals - two hull pixels that touch each other only on their corners will still allow water in. \n\n • Make sure that when the texture image was transparent, the structure image has white pixels instead. You may probably just flood the “outside” area with white to achieve this. \n\n • Once you’re done, save the structural image as a png file; call it for example “my_new_ship_structural.png”. \n\n • Create a text file with the following content: \n\n • Save the file as “My New Ship.shp” \n\n • Load the ship end enjoy it"
         ]
       ],
